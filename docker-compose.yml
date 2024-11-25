@@ -8,6 +8,5 @@ services:
     user: 1000:1000
     volumes:
       - /opt:/opt
-      - ${HOME}:${HOME}:z
+      - ${HOME}/projects:/home/dev/projects:z
       - ${HOME}/.config/nvim:/home/dev/.config/nvim:z
-
